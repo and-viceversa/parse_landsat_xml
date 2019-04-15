@@ -1,0 +1,28 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "2ea8b6a5d738547efbb68202874cffb288ac8f0b3a063cfee2b327e565f2aee8"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "usgsdownload": {
+            "hashes": [
+                "sha256:afa2cba3f1317be4dae1accad2aff809b395cb2611cb6dd5c00f7e6b41fd91e4"
+            ],
+            "index": "pypi",
+            "version": "==0.6"
+        }
+    },
+    "develop": {}
+}

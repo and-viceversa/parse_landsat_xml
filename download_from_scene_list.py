@@ -6,12 +6,15 @@ from usgsdownload.usgs import SceneInfo, USGSDownload
 
 
 def download_landsat_scenes(args):
-    with open('./scene_id_list.txt', 'r') as f:
-        for line in f:
-            line.strip()
-            scene = SceneInfo(line)
-            usgs = USGSDownload(scene, user=args.username, password=args.password)
-            usgs.download(download_dir='$HOME/landsat_scenes')
+    try:
+        with open('./scene_id_list.txt', 'r') as f:
+            for line in f:
+                line.strip()
+                scene = SceneInfo(line)
+                usgs = USGSDownload(scene, user=args.username, password=args.password)
+                usgs.download(download_dir='$HOME/landsat_scenes')
+    except Exception as e:
+        print(e)
 
 
 def parse_args():
