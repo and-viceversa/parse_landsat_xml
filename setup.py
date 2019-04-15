@@ -6,9 +6,9 @@ with open("README.md", "r") as fh:
 
 setup(
     name="parse_landsat_xml",
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
-    scripts=['parse_landsat_xml.py', 'download_from_scene_list.py'],
+    scripts=['parse_landsat_xml.py'],
     author="AdamR",
     author_email="25871157+and-viceversa@users.noreply.github.com",
     description="Search bulk Landsat metadata files, and then download the resulting Landsat scenes.",

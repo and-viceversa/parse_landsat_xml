@@ -9,8 +9,6 @@ based on the user's search parameters. It also creates a .txt file with each Lan
 for use with [EarthExplorer](https://earthexplorer.usgs.gov/). Users can search by date-range, cloud cover percentage, and 
 whether a lat/lon point is within the scene.
 
-I've also included a quick script that uses [USGSDownload](https://github.com/lucaslamounier/USGSDownload/) to
-download the scenes from the output .txt file.
 
 A USGS EROS [account](https://ers.cr.usgs.gov/login/) is required if you want to download.
 
@@ -23,7 +21,6 @@ Flags:
 -d YYYYMMDD_YYYYMMDD inclusive date range 
 -c max acceptable cloud cover in scene
 -b lat,lon boundary. the search only supports point based boundary.
-
 ```
 
 Example Usage:
