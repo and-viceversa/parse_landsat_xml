@@ -27,6 +27,6 @@ Example Usage:
 
 ```commandline
 cd /filepath/to/bulkmetadata
-parse_landsat_xml.py -f LANDSAT_8_C1.xml -d 20180101_20190101 -c 50 -b 12.114993-86.236176
+parse_landsat_xml.py -f LANDSAT_8_C1.xml -d 20180101_20190101 -c 50 -b 12.114993,-86.236176
 download_from_scene_list.py
 ```
